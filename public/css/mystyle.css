@@ -1,0 +1,179 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 6px;
+    padding: 10px;
+    /* flex-direction: column; */
+}
+
+.container .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 60px;
+    background: #2d8392;
+    padding: 36px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.container .sub-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    background: #2d8392;
+    padding: 15px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 20px
+}
+
+.container .table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .table thead tr th {
+    border: 2px solid gray;
+    margin: 3px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.container .table tbody tr td {
+    border: 2px solid gray;
+    margin: 3px;
+    padding: 10px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    /* background: #970404; */
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    border: none;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+}
+
+.Register a {
+    border-radius: 10px;
+    padding: 6px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid blue;
+    background: blue;
+    /* margin-left: 15px; */
+    color: white;
+}
+
+.Login a {
+    border-radius: 10px;
+    padding: 6px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid blue;
+    background: blue;
+    margin-left: 15px;
+    color: white;
+}
+
+.container .add-user {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container .add-user a {
+    text-decoration: none;
+    background: #030268;
+    margin-top: 10px;
+    padding: 10px;
+    color: rgb(247, 247, 253);
+}
+
+.container .back-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container .back-btn a {
+    text-decoration: none;
+    background: #030268;
+    margin-top: 10px;
+    padding: 10px;
+    color: rgb(247, 247, 253);
+}
+
+.form {
+    width: 60%;
+    box-shadow: 4px 3px 5px 4px gray;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 20px;
+    background: #2d8392;
+    margin-top: 10px;
+}
+
+.myform {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    /* border: 2px solid gray; */
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 30px;
+    background: #3494a5;
+    box-shadow: 4px 3px 5px 4px rgb(253, 252, 252);
+}
+
+.myform label {
+    font-size: 22px;
+    color: black;
+    font-weight: bolder;
+    /* padding: 4px; */
+    margin-left: 15px;
+}
+
+.myform input {
+    padding: 10px;
+    width: 70%;
+    margin-left: 25px;
+    border-radius: 10px;
+}
